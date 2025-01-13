@@ -1,52 +1,51 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    position: sticky; /* Set position to sticky */
+    top: 0; /* Sticks to the top of the viewport */
+    z-index: 1000; /* Ensures it stays above other content */
     background-color: white;
 }
-.nav-logo{
+
+.nav-logo {
     display: flex;
     align-items: center;
     gap: 10px;
-    align-items: column;
-    align-items: centre;
+    flex-direction: column; /* Fix this typo */
     justify-content: center;
     cursor: pointer;
 }
 
-.nav-logo p{
+.nav-logo p {
     color: #171717;
     font-size: 38px;
     font-weight: 600;
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
-    align-items: centre;
+    align-items: center; /* Fixed typo: 'centre' -> 'center' */
     list-style: none;
     gap: 50px;
     color: #626262;
     font-size: 20px;
     font-weight: 500;
     margin-top: 0;
-    padding-left: 600px;
+    padding-left: 600px; /* Optional: Adjust this to improve layout */
 }
 
-.nav-menu li{
+.nav-menu li {
     display: flex;
     flex-direction: column;
-    align-items: column;
-    align-items: centre;
+    align-items: center; /* Fixed typo: 'centre' -> 'center' */
     justify-content: center;
     gap: 3px;
     cursor: pointer;
 }
 
-.nav-menu hr{
+.nav-menu hr {
     border: none;
     width: 80%;
     height: 3px;
@@ -54,13 +53,13 @@
     background: #ff4141;
 }
 
-.nav-login-cart{
+.nav-login-cart {
     display: flex;
     align-items: center;
     gap: 45px;
 }
 
-.nav-login-cart button{
+.nav-login-cart button {
     width: 157px;
     height: 58px;
     outline: none;
@@ -72,11 +71,12 @@
     background: white;
     cursor: pointer;
 }
-.nav-login-cart button:active{
+
+.nav-login-cart button:active {
     background: #f3f3f3;
 }
 
-.nav-cart-count{
+.nav-cart-count {
     width: 22px;
     height: 22px;
     display: flex;
