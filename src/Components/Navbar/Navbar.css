@@ -1,6 +1,7 @@
 .navbar{
     display: flex;
     justify-content: space-around;
+    padding: 16px;
     box-shadow: 0 1px 3px -2px black;
 }
 .nav-logo{
@@ -15,7 +16,7 @@
 
 .nav-logo p{
     color: #171717;
-    font-size: 32px;
+    font-size: 38px;
     font-weight: 600;
 }
 
@@ -27,7 +28,7 @@
     color: #626262;
     font-size: 20px;
     font-weight: 500;
-    margin-top: 30px;
+    margin-top: 0;
     padding-left: 600px;
 }
 
